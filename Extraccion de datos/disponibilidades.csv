@@ -1,0 +1,181 @@
+ID_Empleado,Dia,Horario,Disponibilidad
+13623,SÁBADO (virtual),8:00-9:00,poca disponibilidad
+13623,LUNES,9:00-10:00,disponible
+13623,MARTES,9:00-10:00,disponible
+13623,MIÉRCOLES,9:00-10:00,disponible
+13623,JUEVES,9:00-10:00,disponible
+13623,SÁBADO (virtual),9:00-10:00,disponible
+13623,LUNES,10:00-11:00,disponible
+13623,MARTES,10:00-11:00,disponible
+13623,MIÉRCOLES,10:00-11:00,disponible
+13623,JUEVES,10:00-11:00,disponible
+13623,SÁBADO (virtual),10:00-11:00,disponible
+13623,LUNES,11:00-12:00,disponible
+13623,MARTES,11:00-12:00,disponible
+13623,MIÉRCOLES,11:00-12:00,disponible
+13623,JUEVES,11:00-12:00,disponible
+13623,SÁBADO (virtual),11:00-12:00,disponible
+13623,LUNES,12:00-13:00,disponible
+13623,MARTES,12:00-13:00,disponible
+13623,MIÉRCOLES,12:00-13:00,disponible
+13623,JUEVES,12:00-13:00,disponible
+13623,SÁBADO (virtual),12:00-13:00,disponible
+13623,SÁBADO (virtual),13:00-14:00,poca disponibilidad
+13623,SÁBADO (virtual),14:00-15:00,poca disponibilidad
+13623,SÁBADO (virtual),15:00-16:00,poca disponibilidad
+13623,SÁBADO (virtual),16:00-17:00,poca disponibilidad
+13623,LUNES,17:00-18:00,disponible
+13623,MARTES,17:00-18:00,disponible
+13623,MIÉRCOLES,17:00-18:00,disponible
+13623,SÁBADO (virtual),17:00-18:00,poca disponibilidad
+13623,LUNES,18:00-19:00,disponible
+13623,MARTES,18:00-19:00,disponible
+13623,MIÉRCOLES,18:00-19:00,disponible
+13623,SÁBADO (virtual),18:00-19:00,poca disponibilidad
+13623,SÁBADO (virtual),19:00-20:00,poca disponibilidad
+16137,VIERNES,9:00-10:00,disponible
+16137,LUNES,10:00-11:00,disponible
+16137,MARTES,10:00-11:00,disponible
+16137,MIÉRCOLES,10:00-11:00,disponible
+16137,JUEVES,10:00-11:00,disponible
+16137,VIERNES,10:00-11:00,disponible
+16137,LUNES,11:00-12:00,disponible
+16137,MARTES,11:00-12:00,disponible
+16137,MIÉRCOLES,11:00-12:00,disponible
+16137,JUEVES,11:00-12:00,disponible
+16137,VIERNES,11:00-12:00,disponible
+16137,SÁBADO (virtual),11:00-12:00,poca disponibilidad
+16137,LUNES,12:00-13:00,disponible
+16137,MARTES,12:00-13:00,disponible
+16137,MIÉRCOLES,12:00-13:00,disponible
+16137,JUEVES,12:00-13:00,disponible
+16137,VIERNES,12:00-13:00,disponible
+16137,SÁBADO (virtual),12:00-13:00,poca disponibilidad
+16137,SÁBADO (virtual),16:00-17:00,poca disponibilidad
+16137,SÁBADO (virtual),17:00-18:00,poca disponibilidad
+16137,LUNES,18:00-19:00,disponible
+16137,MARTES,18:00-19:00,disponible
+16137,JUEVES,18:00-19:00,disponible
+16137,VIERNES,18:00-19:00,disponible
+16137,SÁBADO (virtual),18:00-19:00,poca disponibilidad
+16137,LUNES,19:00-20:00,disponible
+16137,MARTES,19:00-20:00,disponible
+16137,JUEVES,19:00-20:00,disponible
+16137,VIERNES,19:00-20:00,disponible
+16137,SÁBADO (virtual),19:00-20:00,poca disponibilidad
+16137,LUNES,20:00-21:00,disponible
+16137,MARTES,20:00-21:00,disponible
+16137,JUEVES,20:00-21:00,disponible
+16137,VIERNES,20:00-21:00,disponible
+16137,SÁBADO (virtual),20:00-21:00,poca disponibilidad
+16137,SÁBADO (virtual),21:00-22:00,poca disponibilidad
+16866,SÁBADO (virtual),13:00-14:00,poca disponibilidad
+16866,SÁBADO (virtual),14:00-15:00,poca disponibilidad
+16866,SÁBADO (virtual),15:00-16:00,poca disponibilidad
+19975,MARTES,7:00-8:00,disponible
+19975,MIÉRCOLES,7:00-8:00,disponible
+19975,JUEVES,7:00-8:00,disponible
+19975,SÁBADO (virtual),7:00-8:00,disponible
+19975,MARTES,8:00-9:00,disponible
+19975,MIÉRCOLES,8:00-9:00,disponible
+19975,JUEVES,8:00-9:00,disponible
+19975,SÁBADO (virtual),8:00-9:00,disponible
+19975,SÁBADO (virtual),9:00-10:00,disponible
+19975,SÁBADO (virtual),10:00-11:00,disponible
+19975,SÁBADO (virtual),11:00-12:00,disponible
+19975,SÁBADO (virtual),12:00-13:00,disponible
+19975,SÁBADO (virtual),13:00-14:00,disponible
+19975,SÁBADO (virtual),14:00-15:00,disponible
+19975,SÁBADO (virtual),15:00-16:00,disponible
+19975,SÁBADO (virtual),16:00-17:00,poca disponibilidad
+19975,SÁBADO (virtual),17:00-18:00,poca disponibilidad
+19975,SÁBADO (virtual),18:00-19:00,poca disponibilidad
+19975,SÁBADO (virtual),19:00-20:00,poca disponibilidad
+19975,SÁBADO (virtual),20:00-21:00,poca disponibilidad
+19975,SÁBADO (virtual),21:00-22:00,poca disponibilidad
+20149,LUNES,7:00-8:00,disponible
+20149,MARTES,7:00-8:00,disponible
+20149,MIÉRCOLES,7:00-8:00,disponible
+20149,JUEVES,7:00-8:00,disponible
+20149,VIERNES,7:00-8:00,disponible
+20149,SÁBADO (virtual),7:00-8:00,disponible
+20149,LUNES,8:00-9:00,disponible
+20149,MARTES,8:00-9:00,disponible
+20149,MIÉRCOLES,8:00-9:00,disponible
+20149,JUEVES,8:00-9:00,disponible
+20149,VIERNES,8:00-9:00,disponible
+20149,SÁBADO (virtual),8:00-9:00,disponible
+20149,SÁBADO (virtual),9:00-10:00,disponible
+20149,SÁBADO (virtual),10:00-11:00,disponible
+20149,SÁBADO (virtual),11:00-12:00,disponible
+20149,SÁBADO (virtual),12:00-13:00,disponible
+20149,SÁBADO (virtual),13:00-14:00,disponible
+20149,SÁBADO (virtual),14:00-15:00,disponible
+20149,SÁBADO (virtual),15:00-16:00,disponible
+20149,SÁBADO (virtual),16:00-17:00,poca disponibilidad
+20149,SÁBADO (virtual),17:00-18:00,poca disponibilidad
+20149,SÁBADO (virtual),18:00-19:00,poca disponibilidad
+20149,SÁBADO (virtual),19:00-20:00,poca disponibilidad
+20149,SÁBADO (virtual),20:00-21:00,poca disponibilidad
+20149,SÁBADO (virtual),21:00-22:00,poca disponibilidad
+22691,LUNES,8:00-9:00,poca disponibilidad
+22691,SÁBADO (virtual),8:00-9:00,poca disponibilidad
+22691,SÁBADO (virtual),9:00-10:00,poca disponibilidad
+22691,SÁBADO (virtual),10:00-11:00,poca disponibilidad
+22691,SÁBADO (virtual),11:00-12:00,poca disponibilidad
+22691,MARTES,13:00-14:00,poca disponibilidad
+22691,MIÉRCOLES,13:00-14:00,poca disponibilidad
+22691,MARTES,14:00-15:00,poca disponibilidad
+22691,MIÉRCOLES,14:00-15:00,poca disponibilidad
+22691,SÁBADO (virtual),15:00-16:00,poca disponibilidad
+22691,SÁBADO (virtual),16:00-17:00,poca disponibilidad
+22691,SÁBADO (virtual),18:00-19:00,poca disponibilidad
+26808,SÁBADO (virtual),7:00-8:00,poca disponibilidad
+26808,SÁBADO (virtual),8:00-9:00,poca disponibilidad
+26808,LUNES,9:00-10:00,disponible
+26808,MARTES,9:00-10:00,disponible
+26808,MIÉRCOLES,9:00-10:00,disponible
+26808,JUEVES,9:00-10:00,disponible
+26808,VIERNES,9:00-10:00,disponible
+26808,SÁBADO (virtual),9:00-10:00,disponible
+26808,LUNES,10:00-11:00,disponible
+26808,MARTES,10:00-11:00,disponible
+26808,MIÉRCOLES,10:00-11:00,disponible
+26808,JUEVES,10:00-11:00,disponible
+26808,VIERNES,10:00-11:00,disponible
+26808,SÁBADO (virtual),10:00-11:00,poca disponibilidad
+26808,LUNES,11:00-12:00,disponible
+26808,MARTES,11:00-12:00,disponible
+26808,MIÉRCOLES,11:00-12:00,disponible
+26808,JUEVES,11:00-12:00,disponible
+26808,VIERNES,11:00-12:00,disponible
+26808,SÁBADO (virtual),11:00-12:00,poca disponibilidad
+26808,LUNES,12:00-13:00,disponible
+26808,MARTES,12:00-13:00,disponible
+26808,MIÉRCOLES,12:00-13:00,disponible
+26808,JUEVES,12:00-13:00,disponible
+26808,VIERNES,12:00-13:00,poca disponibilidad
+26808,SÁBADO (virtual),12:00-13:00,poca disponibilidad
+26808,VIERNES,13:00-14:00,poca disponibilidad
+26808,SÁBADO (virtual),13:00-14:00,poca disponibilidad
+26808,SÁBADO (virtual),14:00-15:00,disponible
+26808,VIERNES,15:00-16:00,poca disponibilidad
+26808,SÁBADO (virtual),15:00-16:00,disponible
+26808,LUNES,16:00-17:00,disponible
+26808,MARTES,16:00-17:00,disponible
+26808,MIÉRCOLES,16:00-17:00,disponible
+26808,JUEVES,16:00-17:00,disponible
+26808,SÁBADO (virtual),16:00-17:00,disponible
+26808,LUNES,17:00-18:00,disponible
+26808,MARTES,17:00-18:00,disponible
+26808,MIÉRCOLES,17:00-18:00,disponible
+26808,JUEVES,17:00-18:00,disponible
+26808,SÁBADO (virtual),17:00-18:00,disponible
+26808,LUNES,18:00-19:00,disponible
+26808,MARTES,18:00-19:00,disponible
+26808,MIÉRCOLES,18:00-19:00,disponible
+26808,JUEVES,18:00-19:00,disponible
+26808,SÁBADO (virtual),18:00-19:00,disponible
+26808,SÁBADO (virtual),19:00-20:00,disponible
+26808,SÁBADO (virtual),20:00-21:00,poca disponibilidad
+26808,SÁBADO (virtual),21:00-22:00,poca disponibilidad
