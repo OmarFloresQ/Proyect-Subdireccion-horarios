@@ -1,5 +1,7 @@
 import openpyxl
 import pandas as pd
+from tabulate import tabulate 
+
 
 # Cargar el archivo de Excel
 excel_dataframe = openpyxl.load_workbook("Copia de Ejemplo Disponibilidad.xlsx")
@@ -47,14 +49,25 @@ for nombre_hoja in excel_dataframe.sheetnames[0:]:
                 color_celda = celda.fill.start_color.rgb
                 disponibilidad = colores_disponibilidad.get(color_celda, "sin disponibilidad")
             else:
-                # Sin relleno explícito
+                # Sin color
                 disponibilidad = "sin disponibilidad"
-
-            # Agregar el registro con id_empleado
+                
+            # En caso de que se tomen en cuenta las celdas con texto en color rojo, esto lo marca como "sin disponibilidad"
+            #if celda.font and celda.font.color and celda.font.color.rgb == "FFFF0000":
+                #disponibilidad = "sin disponibilidad"
+            
+            #Esta parte la es para obtener solo los registros con disponibilidad y poca disponibilidad, y ignora los que estan en color blanco o rojo, tambien los que tienen letras o numros rojos!!
+            #if disponibilidad in ["disponible", "poca disponibilidad"]: 
+                #todos_datos.append([id_empleado, dia, horario, disponibilidad])
+            
             todos_datos.append([id_empleado, dia, horario, disponibilidad])
 
 # Guardar todos los datos en un único archivo CSV llamado 'disponibilidades.csv'
 df = pd.DataFrame(todos_datos, columns=["ID_Empleado", "Día", "Horario", "Disponibilidad"])
 df.to_csv("disponibilidades.csv", index=False, encoding="utf-8")
+
+
+#por si quiere visualizar la tabla de los datos recabados
+#print(tabulate(df, headers="keys", tablefmt="fancy_grid")) 
 
 print("Todos los datos han sido guardados en 'disponibilidades.csv'.")
