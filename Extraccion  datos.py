@@ -18,13 +18,16 @@ colores_disponibilidad = {
     "FFFFE599": "disponible"           # Amarillo (#ffe599)
 }
 
+# Inicializar lista para almacenar todos los datos
+todos_datos = []
+
 # Iterar sobre cada hoja de trabajo, comenzando desde la segunda hoja
-for nombre_hoja in excel_dataframe.sheetnames[1:]:
+for nombre_hoja in excel_dataframe.sheetnames[0:]:
+    # Usar el nombre de la hoja como id_empleado
+    id_empleado = nombre_hoja
+
     # Seleccionar la hoja actual
     hoja = excel_dataframe[nombre_hoja]
-
-    # Inicializar lista para almacenar datos de la hoja actual
-    data = []
 
     # Extraer los horarios y días
     horarios = [hoja.cell(row=row, column=3).value for row in range(fila_inicio_datos, fila_fin_datos + 1)]
@@ -42,19 +45,16 @@ for nombre_hoja in excel_dataframe.sheetnames[1:]:
             # Verificar el color de la celda, si tiene relleno y color específico
             if celda.fill and celda.fill.start_color:
                 color_celda = celda.fill.start_color.rgb
-                disponibilidad = colores_disponibilidad.get(color_celda, "sin información")
+                disponibilidad = colores_disponibilidad.get(color_celda, "sin disponibilidad")
             else:
                 # Sin relleno explícito
                 disponibilidad = "sin disponibilidad"
 
-            # Agregar el registro al formato deseado
-            data.append([dia, horario, disponibilidad])
+            # Agregar el registro con id_empleado
+            todos_datos.append([id_empleado, dia, horario, disponibilidad])
 
-    # Guardar los datos en un archivo CSV con el nombre de la hoja actual
-    df = pd.DataFrame(data, columns=["Día", "Horario", "Disponibilidad"])
-    nombre_archivo = f"{nombre_hoja}.csv"
-    df.to_csv(nombre_archivo, index=False, encoding="utf-8")
+# Guardar todos los datos en un único archivo CSV llamado 'disponibilidades.csv'
+df = pd.DataFrame(todos_datos, columns=["ID_Empleado", "Día", "Horario", "Disponibilidad"])
+df.to_csv("disponibilidades.csv", index=False, encoding="utf-8")
 
-    print(f"Los datos de la hoja '{nombre_hoja}' han sido guardados en '{nombre_archivo}'")
-
-print("Proceso completado para todas las hojas.")
+print("Todos los datos han sido guardados en 'disponibilidades.csv'.")
