@@ -100,13 +100,16 @@ for nombre_hoja in excel_dataframe.sheetnames[0:]:
                  elif disponibilidad == "poca disponibilidad":
                      id_disponibilidad = 2
                  todos_datos.append([id_empleado, id_dias, id_horario, id_disponibilidad])
-                 Datos.append([id_empleado, dia, horario, disponibilidad])
+                #Si necesita verificar los datos, descomentar esta parte y la de las ultimas lineas
+                 #Datos.append([id_empleado, dia, horario, disponibilidad]) 
 
 df = pd.DataFrame(todos_datos, columns=["ID_Empleado", "ID_Dias", "ID_Horario", "ID_Disponibilidad"])
 df.to_csv("disponibilidades_ids.csv", index=False, encoding="utf-8")
 print(tabulate(df, headers="keys", tablefmt="fancy_grid"))
 print("Todos los datos con ids han sido guardados en 'disponibilidades_ids.csv'.")
 
+
+#Descomentar esta parte para la visualizacion completa de datos
 #df2 = pd.DataFrame(Datos, columns=["ID_Empleado", "Dia", "Horario", "Disponibilidad"])
 #df2.to_csv("disponibilidades.csv", index=False, encoding="utf-8")
 #print(tabulate(df2, headers="keys", tablefmt="fancy_grid"))
