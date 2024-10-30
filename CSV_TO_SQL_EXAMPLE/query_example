@@ -1,0 +1,1 @@
+LOAD DATA INFILE '/tmp/horas.csv' INTO TABLE horas FIELDS TERMINATED BY ',' ENCLOSED BY '"' LINES TERMINATED BY '\n' (horaini, horafin, users_id) SET hora = NULL; -- /tmp directory by pass the secure-file-priv for mysql, in any case it should be correctly configures from the my.cnf for mysql configuration [mysqld], secure-file-priv='file', then restart service
