@@ -4,7 +4,10 @@ from tabulate import tabulate
 
 """
 Cargar el archivo de Excel"""
-excel_dataframe = openpyxl.load_workbook("Copia de Ejemplo Disponibilidad.xlsx")
+excel_dataframe = openpyxl.load_workbook("Copia de Ejemplo Disponibilidad.xlsx") #Tiene que cambiar esta ruta 
+# d# e el archivo excel tambien mas abajo utilice otro archivo excel pero puede poner el mismo, ya se lo amrque mas abajo
+#y en esta parte tiene que cambiar desde que hoja quiere empezar a sacar los datos en la linea de codigo 74
+
 id_disponibilidad: int = 0
 
 """ 
@@ -125,7 +128,7 @@ for nombre_hoja in excel_dataframe.sheetnames[0:]:
             """
             Verificar el color de la celda. Si tiene relleno y un color específico, asignar 
             disponibilidad según el color."""
-            
+
             if celda.fill and celda.fill.start_color:
                 color_celda = celda.fill.start_color.rgb
                 disponibilidad = colores_disponibilidad.get(color_celda, "sin disponibilidad")
@@ -162,11 +165,15 @@ df2.to_csv("disponibilidades.csv", index=False, encoding="utf-8")
 print(tabulate(df2, headers="keys", tablefmt="fancy_grid"))
 print("Todos los datos completos han sido guardados en 'disponibilidades.csv'.")
 
+
+
+#Este es el otro archivo excel que use pero puede usar el mismo, nada mas que tiene que cambiar la hoja
 # Cargar el archivo de Excel
 excel_dataframe = openpyxl.load_workbook("Ejemplo Disponibilidad.xlsx", data_only=True)  # 'data_only=True' permite obtener el resultado de la fórmula
 
 # Seleccionar la primera hoja (índice 0)
-hoja = excel_dataframe[excel_dataframe.sheetnames[0]]
+hoja = excel_dataframe[excel_dataframe.sheetnames[0]] #Aqui se indica de cual hoja se sacan los datos, de esta hoja
+#Saco los datos de todas las materias, de la tabla grande
 
 """
 Definir los rangos para filas y columnas
