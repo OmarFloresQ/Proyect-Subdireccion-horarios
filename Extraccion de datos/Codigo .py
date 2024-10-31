@@ -106,8 +106,11 @@ for nombre_hoja in excel_dataframe.sheetnames[0:]:
             celda = hoja.cell(row=row, column=col)
 
             """
-            Verificar el color de la celda. Si tiene relleno y un color específico, asignar 
-            disponibilidad según el color."""
+            Verificar el color de la celda. Si tiene relleno y un color específico, asignar """
+
+             # Verificar si el texto está en color rojo (#FF0000)
+            if celda.font and celda.font.color and celda.font.color.rgb == "FFFF0000":
+                disponibilidad = "sin disponibilidad"
             if celda.fill and celda.fill.start_color:
                 color_celda = celda.fill.start_color.rgb
                 disponibilidad = colores_disponibilidad.get(color_celda, "sin disponibilidad")
