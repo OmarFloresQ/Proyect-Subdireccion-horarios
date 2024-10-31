@@ -1,0 +1,912 @@
+{
+    "13623": {
+        "nombre": "SALGADO SOTO MARIA DEL CONSUELO",
+        "email": "csalgado@uabc.edu.mx",
+        "telefono": [
+            6641513160,
+            6641513160
+        ],
+        "disponibilidad": {
+            "1": {
+                "1": "Not Available",
+                "2": "Not Available",
+                "3": "Not Available",
+                "4": "Not Available",
+                "5": "Not Available",
+                "6": "Not Available"
+            },
+            "2": {
+                "1": "Not Available",
+                "2": "Not Available",
+                "3": "Not Available",
+                "4": "Not Available",
+                "5": "Not Available",
+                "6": "Virtual 931"
+            },
+            "3": {
+                "1": "Available",
+                "2": "Available",
+                "3": "Available",
+                "4": "Available",
+                "5": "Not Available",
+                "6": "Available"
+            },
+            "4": {
+                "1": "623",
+                "2": "Available",
+                "3": "Available",
+                "4": "931",
+                "5": "Not Available",
+                "6": "Available"
+            },
+            "5": {
+                "1": "623",
+                "2": "931",
+                "3": "Available",
+                "4": "623",
+                "5": "Not Available",
+                "6": "Available"
+            },
+            "6": {
+                "1": "Available",
+                "2": "931",
+                "3": "Available",
+                "4": "623",
+                "5": "Not Available",
+                "6": "Available"
+            },
+            "7": {
+                "1": "Not Available",
+                "2": "Not Available",
+                "3": "Not Available",
+                "4": "Not Available",
+                "5": "Not Available",
+                "6": "Virtual 232"
+            },
+            "8": {
+                "1": "Not Available",
+                "2": "Not Available",
+                "3": "Not Available",
+                "4": "Not Available",
+                "5": "Not Available",
+                "6": "Virtual 232"
+            },
+            "9": {
+                "1": "Not Available",
+                "2": "Not Available",
+                "3": "Not Available",
+                "4": "Not Available",
+                "5": "Not Available",
+                "6": "Virtual 232"
+            },
+            "10": {
+                "1": "Not Available",
+                "2": "Not Available",
+                "3": "Not Available",
+                "4": "Not Available",
+                "5": "Not Available",
+                "6": "Virtual 232"
+            },
+            "11": {
+                "1": "932",
+                "2": "Available",
+                "3": "382",
+                "4": "Not Available",
+                "5": "Not Available",
+                "6": "Virtual 932"
+            },
+            "12": {
+                "1": "932",
+                "2": "932",
+                "3": "301",
+                "4": "Not Available",
+                "5": "Not Available",
+                "6": "Virtual 382"
+            },
+            "13": {
+                "1": "Not Available",
+                "2": "Not Available",
+                "3": "Not Available",
+                "4": "Not Available",
+                "5": "Not Available",
+                "6": "Virtual 382"
+            },
+            "14": {
+                "1": "Not Available",
+                "2": "Not Available",
+                "3": "Not Available",
+                "4": "Not Available",
+                "5": "Not Available",
+                "6": "Not Available"
+            },
+            "15": {
+                "1": "Not Available",
+                "2": "Not Available",
+                "3": "Not Available",
+                "4": "Not Available",
+                "5": "Not Available",
+                "6": "Not Available"
+            }
+        }
+    },
+    "16137": {
+        "nombre": "RAMIREZ MORENO HILDA BEATRIZ",
+        "email": "ramirezmb@uabc.edu.mx",
+        "telefono": [
+            6649797505,
+            6642941453
+        ],
+        "disponibilidad": {
+            "1": {
+                "1": "Not Available",
+                "2": "Not Available",
+                "3": "Not Available",
+                "4": "Not Available",
+                "5": "Not Available",
+                "6": "Not Available"
+            },
+            "2": {
+                "1": "Not Available",
+                "2": "Not Available",
+                "3": "Not Available",
+                "4": "Not Available",
+                "5": "Not Available",
+                "6": "Not Available"
+            },
+            "3": {
+                "1": "Not Available",
+                "2": "Not Available",
+                "3": "Not Available",
+                "4": "Not Available",
+                "5": "231",
+                "6": "Not Available"
+            },
+            "4": {
+                "1": "Available",
+                "2": "Available",
+                "3": "Available",
+                "4": "Available",
+                "5": "231",
+                "6": "Not Available"
+            },
+            "5": {
+                "1": "Available",
+                "2": "Available",
+                "3": "931",
+                "4": "Available",
+                "5": "Available",
+                "6": "Virtual 931"
+            },
+            "6": {
+                "1": "Available",
+                "2": "Available",
+                "3": "931",
+                "4": "Available",
+                "5": "Available",
+                "6": "Virtual 931"
+            },
+            "7": {
+                "1": "Not Available",
+                "2": "Not Available",
+                "3": "Not Available",
+                "4": "Not Available",
+                "5": "Not Available",
+                "6": "Not Available"
+            },
+            "8": {
+                "1": "Not Available",
+                "2": "Not Available",
+                "3": "Not Available",
+                "4": "Not Available",
+                "5": "Not Available",
+                "6": "Not Available"
+            },
+            "9": {
+                "1": "Not Available",
+                "2": "Not Available",
+                "3": "Not Available",
+                "4": "Not Available",
+                "5": "Not Available",
+                "6": "Not Available"
+            },
+            "10": {
+                "1": "Not Available",
+                "2": "Not Available",
+                "3": "Not Available",
+                "4": "Not Available",
+                "5": "Not Available",
+                "6": "Virtual 744"
+            },
+            "11": {
+                "1": "Not Available",
+                "2": "Not Available",
+                "3": "Not Available",
+                "4": "Not Available",
+                "5": "Not Available",
+                "6": "Virtual 744"
+            },
+            "12": {
+                "1": "744",
+                "2": "Available",
+                "3": "Not Available",
+                "4": "Available",
+                "5": "Available",
+                "6": "Virtual 233"
+            },
+            "13": {
+                "1": "744",
+                "2": "Available",
+                "3": "Not Available",
+                "4": "Available",
+                "5": "Available",
+                "6": "Virtual 233"
+            },
+            "14": {
+                "1": "744",
+                "2": "Available",
+                "3": "Not Available",
+                "4": "Available",
+                "5": "Available",
+                "6": "Virtual 233"
+            },
+            "15": {
+                "1": "Not Available",
+                "2": "Not Available",
+                "3": "Not Available",
+                "4": "Not Available",
+                "5": "Not Available",
+                "6": "Virtual 233"
+            }
+        }
+    },
+    "16866": {
+        "nombre": "OSUNA MILLAN NORA DEL CARMEN",
+        "email": "nora.osuna@uabc.edu.mx",
+        "telefono": [
+            6646822566,
+            6641887951
+        ],
+        "disponibilidad": {
+            "1": {
+                "1": "Not Available",
+                "2": "Not Available",
+                "3": "Not Available",
+                "4": "Not Available",
+                "5": "Not Available",
+                "6": "Not Available"
+            },
+            "2": {
+                "1": "Not Available",
+                "2": "Not Available",
+                "3": "Not Available",
+                "4": "Not Available",
+                "5": "Not Available",
+                "6": "Not Available"
+            },
+            "3": {
+                "1": "Not Available",
+                "2": "Not Available",
+                "3": "Not Available",
+                "4": "Not Available",
+                "5": "Not Available",
+                "6": "Not Available"
+            },
+            "4": {
+                "1": "Not Available",
+                "2": "Not Available",
+                "3": "Not Available",
+                "4": "Not Available",
+                "5": "Not Available",
+                "6": "Not Available"
+            },
+            "5": {
+                "1": "Not Available",
+                "2": "Not Available",
+                "3": "Not Available",
+                "4": "Not Available",
+                "5": "Not Available",
+                "6": "Not Available"
+            },
+            "6": {
+                "1": "Not Available",
+                "2": "Not Available",
+                "3": "Not Available",
+                "4": "Not Available",
+                "5": "Not Available",
+                "6": "Not Available"
+            },
+            "7": {
+                "1": "Not Available",
+                "2": "Not Available",
+                "3": "Not Available",
+                "4": "Not Available",
+                "5": "Not Available",
+                "6": "Virtual 951"
+            },
+            "8": {
+                "1": "Not Available",
+                "2": "Not Available",
+                "3": "Not Available",
+                "4": "Not Available",
+                "5": "Not Available",
+                "6": "Virtual 951"
+            },
+            "9": {
+                "1": "Not Available",
+                "2": "Not Available",
+                "3": "Not Available",
+                "4": "Not Available",
+                "5": "Not Available",
+                "6": "Virtual 951"
+            },
+            "10": {
+                "1": "Not Available",
+                "2": "Not Available",
+                "3": "Not Available",
+                "4": "Not Available",
+                "5": "Not Available",
+                "6": "Not Available"
+            },
+            "11": {
+                "1": "Not Available",
+                "2": "Not Available",
+                "3": "Not Available",
+                "4": "Not Available",
+                "5": "Not Available",
+                "6": "Not Available"
+            },
+            "12": {
+                "1": "Not Available",
+                "2": "Not Available",
+                "3": "Not Available",
+                "4": "Not Available",
+                "5": "Not Available",
+                "6": "Not Available"
+            },
+            "13": {
+                "1": "Not Available",
+                "2": "Not Available",
+                "3": "Not Available",
+                "4": "Not Available",
+                "5": "Not Available",
+                "6": "Not Available"
+            },
+            "14": {
+                "1": "Not Available",
+                "2": "Not Available",
+                "3": "Not Available",
+                "4": "Not Available",
+                "5": "Not Available",
+                "6": "Not Available"
+            },
+            "15": {
+                "1": "Not Available",
+                "2": "Not Available",
+                "3": "Not Available",
+                "4": "Not Available",
+                "5": "Not Available",
+                "6": "Not Available"
+            }
+        }
+    },
+    "19975": {
+        "nombre": "GARCIA FAVELA CARINA",
+        "email": "carina.garcia@uabc.edu.mx",
+        "telefono": [
+            6649797505,
+            6641768427
+        ],
+        "disponibilidad": {
+            "1": {
+                "1": "Not Available",
+                "2": "601",
+                "3": "607",
+                "4": "Available",
+                "5": "Not Available",
+                "6": "Available"
+            },
+            "2": {
+                "1": "Not Available",
+                "2": "601",
+                "3": "607",
+                "4": "Available",
+                "5": "Not Available",
+                "6": "Available"
+            },
+            "3": {
+                "1": "Not Available",
+                "2": "Not Available",
+                "3": "Not Available",
+                "4": "Not Available",
+                "5": "Not Available",
+                "6": "Available"
+            },
+            "4": {
+                "1": "Not Available",
+                "2": "Not Available",
+                "3": "Not Available",
+                "4": "Not Available",
+                "5": "Not Available",
+                "6": "Available"
+            },
+            "5": {
+                "1": "Not Available",
+                "2": "Not Available",
+                "3": "Not Available",
+                "4": "Not Available",
+                "5": "Not Available",
+                "6": "Available"
+            },
+            "6": {
+                "1": "Not Available",
+                "2": "Not Available",
+                "3": "Not Available",
+                "4": "Not Available",
+                "5": "Not Available",
+                "6": "Available"
+            },
+            "7": {
+                "1": "Not Available",
+                "2": "Not Available",
+                "3": "Not Available",
+                "4": "Not Available",
+                "5": "Not Available",
+                "6": "Available"
+            },
+            "8": {
+                "1": "Not Available",
+                "2": "Not Available",
+                "3": "Not Available",
+                "4": "Not Available",
+                "5": "Not Available",
+                "6": "Available"
+            },
+            "9": {
+                "1": "Not Available",
+                "2": "Not Available",
+                "3": "Not Available",
+                "4": "Not Available",
+                "5": "Not Available",
+                "6": "Available"
+            },
+            "10": {
+                "1": "Not Available",
+                "2": "Not Available",
+                "3": "Not Available",
+                "4": "Not Available",
+                "5": "Not Available",
+                "6": "Virtual 607"
+            },
+            "11": {
+                "1": "Not Available",
+                "2": "Not Available",
+                "3": "Not Available",
+                "4": "Not Available",
+                "5": "Not Available",
+                "6": "Virtual 607"
+            },
+            "12": {
+                "1": "Not Available",
+                "2": "Not Available",
+                "3": "Not Available",
+                "4": "Not Available",
+                "5": "Not Available",
+                "6": "Virtual 607"
+            },
+            "13": {
+                "1": "Not Available",
+                "2": "Not Available",
+                "3": "Not Available",
+                "4": "Not Available",
+                "5": "Not Available",
+                "6": "Virtual 601"
+            },
+            "14": {
+                "1": "Not Available",
+                "2": "Not Available",
+                "3": "Not Available",
+                "4": "Not Available",
+                "5": "Not Available",
+                "6": "Virtual 601"
+            },
+            "15": {
+                "1": "Not Available",
+                "2": "Not Available",
+                "3": "Not Available",
+                "4": "Not Available",
+                "5": "Not Available",
+                "6": "Virtual 601"
+            }
+        }
+    },
+    "20149": {
+        "nombre": "MARQUEZ SILVA PERLA FLOR",
+        "email": "perla.marquez@uabc.edu.mx",
+        "telefono": [
+            6649797505,
+            6643688792
+        ],
+        "disponibilidad": {
+            "1": {
+                "1": "Available",
+                "2": "606",
+                "3": "604",
+                "4": "Available",
+                "5": "Available",
+                "6": "Available"
+            },
+            "2": {
+                "1": "Available",
+                "2": "606",
+                "3": "604",
+                "4": "Available",
+                "5": "Available",
+                "6": "Available"
+            },
+            "3": {
+                "1": "Not Available",
+                "2": "Not Available",
+                "3": "Not Available",
+                "4": "Not Available",
+                "5": "Not Available",
+                "6": "Available"
+            },
+            "4": {
+                "1": "Not Available",
+                "2": "Not Available",
+                "3": "Not Available",
+                "4": "Not Available",
+                "5": "Not Available",
+                "6": "Available"
+            },
+            "5": {
+                "1": "Not Available",
+                "2": "Not Available",
+                "3": "Not Available",
+                "4": "Not Available",
+                "5": "Not Available",
+                "6": "Available"
+            },
+            "6": {
+                "1": "Not Available",
+                "2": "Not Available",
+                "3": "Not Available",
+                "4": "Not Available",
+                "5": "Not Available",
+                "6": "Available"
+            },
+            "7": {
+                "1": "Not Available",
+                "2": "Not Available",
+                "3": "Not Available",
+                "4": "Not Available",
+                "5": "Not Available",
+                "6": "Available"
+            },
+            "8": {
+                "1": "Not Available",
+                "2": "Not Available",
+                "3": "Not Available",
+                "4": "Not Available",
+                "5": "Not Available",
+                "6": "Available"
+            },
+            "9": {
+                "1": "Not Available",
+                "2": "Not Available",
+                "3": "Not Available",
+                "4": "Not Available",
+                "5": "Not Available",
+                "6": "Available"
+            },
+            "10": {
+                "1": "Not Available",
+                "2": "Not Available",
+                "3": "Not Available",
+                "4": "Not Available",
+                "5": "Not Available",
+                "6": "Virtual 604"
+            },
+            "11": {
+                "1": "Not Available",
+                "2": "Not Available",
+                "3": "Not Available",
+                "4": "Not Available",
+                "5": "Not Available",
+                "6": "Virtual 604"
+            },
+            "12": {
+                "1": "Not Available",
+                "2": "Not Available",
+                "3": "Not Available",
+                "4": "Not Available",
+                "5": "Not Available",
+                "6": "Virtual 604"
+            },
+            "13": {
+                "1": "Not Available",
+                "2": "Not Available",
+                "3": "Not Available",
+                "4": "Not Available",
+                "5": "Not Available",
+                "6": "Virtual 606"
+            },
+            "14": {
+                "1": "Not Available",
+                "2": "Not Available",
+                "3": "Not Available",
+                "4": "Not Available",
+                "5": "Not Available",
+                "6": "Virtual 606"
+            },
+            "15": {
+                "1": "Not Available",
+                "2": "Not Available",
+                "3": "Not Available",
+                "4": "Not Available",
+                "5": "Not Available",
+                "6": "Virtual 606"
+            }
+        }
+    },
+    "22691": {
+        "nombre": "FLORES SANCHEZ CARLOS ALBERTO",
+        "email": "carlos.flores@uabc.edu.mx",
+        "telefono": [
+            6649797900,
+            6641207407
+        ],
+        "disponibilidad": {
+            "1": {
+                "1": "Not Available",
+                "2": "Not Available",
+                "3": "Not Available",
+                "4": "Not Available",
+                "5": "Not Available",
+                "6": "Not Available"
+            },
+            "2": {
+                "1": "Virtual 931",
+                "2": "Not Available",
+                "3": "Not Available",
+                "4": "Not Available",
+                "5": "Not Available",
+                "6": "Virtual 271"
+            },
+            "3": {
+                "1": "Not Available",
+                "2": "Not Available",
+                "3": "Not Available",
+                "4": "Not Available",
+                "5": "Not Available",
+                "6": "Virtual 271"
+            },
+            "4": {
+                "1": "Not Available",
+                "2": "Not Available",
+                "3": "Not Available",
+                "4": "Not Available",
+                "5": "Not Available",
+                "6": "Virtual 271"
+            },
+            "5": {
+                "1": "Not Available",
+                "2": "Not Available",
+                "3": "Not Available",
+                "4": "Not Available",
+                "5": "Not Available",
+                "6": "Virtual 271"
+            },
+            "6": {
+                "1": "Not Available",
+                "2": "Not Available",
+                "3": "Not Available",
+                "4": "Not Available",
+                "5": "Not Available",
+                "6": "Not Available"
+            },
+            "7": {
+                "1": "Not Available",
+                "2": "Virtual 272",
+                "3": "Virtual 272",
+                "4": "Not Available",
+                "5": "Not Available",
+                "6": "Not Available"
+            },
+            "8": {
+                "1": "Not Available",
+                "2": "Virtual 272",
+                "3": "Virtual 272",
+                "4": "Not Available",
+                "5": "Not Available",
+                "6": "Not Available"
+            },
+            "9": {
+                "1": "Not Available",
+                "2": "Not Available",
+                "3": "Not Available",
+                "4": "Not Available",
+                "5": "Not Available",
+                "6": "Virtual 972"
+            },
+            "10": {
+                "1": "Not Available",
+                "2": "Not Available",
+                "3": "Not Available",
+                "4": "Not Available",
+                "5": "Not Available",
+                "6": "Virtual 972"
+            },
+            "11": {
+                "1": "Not Available",
+                "2": "Not Available",
+                "3": "Not Available",
+                "4": "Not Available",
+                "5": "Not Available",
+                "6": "Not Available"
+            },
+            "12": {
+                "1": "Not Available",
+                "2": "Not Available",
+                "3": "Not Available",
+                "4": "Not Available",
+                "5": "Not Available",
+                "6": "Virtual 636"
+            },
+            "13": {
+                "1": "Not Available",
+                "2": "Not Available",
+                "3": "Not Available",
+                "4": "Not Available",
+                "5": "Not Available",
+                "6": "Not Available"
+            },
+            "14": {
+                "1": "Not Available",
+                "2": "Not Available",
+                "3": "Not Available",
+                "4": "Not Available",
+                "5": "Not Available",
+                "6": "Not Available"
+            },
+            "15": {
+                "1": "Not Available",
+                "2": "Not Available",
+                "3": "Not Available",
+                "4": "Not Available",
+                "5": "Not Available",
+                "6": "Not Available"
+            }
+        }
+    },
+    "26808": {
+        "nombre": "FLORES PARRA JOSUE MIGUEL",
+        "email": "josue.miguel.flores.parra@uabc.edu.mx",
+        "telefono": [
+            6643308391,
+            6643308391
+        ],
+        "disponibilidad": {
+            "1": {
+                "1": "Not Available",
+                "2": "Not Available",
+                "3": "Not Available",
+                "4": "Not Available",
+                "5": "Not Available",
+                "6": "Virtual 382"
+            },
+            "2": {
+                "1": "Not Available",
+                "2": "Not Available",
+                "3": "Not Available",
+                "4": "Not Available",
+                "5": "Not Available",
+                "6": "Virtual 382"
+            },
+            "3": {
+                "1": "Available",
+                "2": "Available",
+                "3": "Available",
+                "4": "Available",
+                "5": "Available",
+                "6": "Available"
+            },
+            "4": {
+                "1": "Available",
+                "2": "Available",
+                "3": "Available",
+                "4": "Available",
+                "5": "Available",
+                "6": "Virtual 971"
+            },
+            "5": {
+                "1": "951",
+                "2": "951",
+                "3": "Available",
+                "4": "Available",
+                "5": "Available",
+                "6": "Virtual 971"
+            },
+            "6": {
+                "1": "951",
+                "2": "951",
+                "3": "Available",
+                "4": "Available",
+                "5": "Virtual 951",
+                "6": "Virtual 952"
+            },
+            "7": {
+                "1": "Not Available",
+                "2": "Not Available",
+                "3": "Not Available",
+                "4": "Not Available",
+                "5": "Virtual 951",
+                "6": "Virtual 952"
+            },
+            "8": {
+                "1": "Not Available",
+                "2": "Not Available",
+                "3": "Not Available",
+                "4": "Not Available",
+                "5": "Not Available",
+                "6": "Available"
+            },
+            "9": {
+                "1": "Not Available",
+                "2": "Not Available",
+                "3": "Not Available",
+                "4": "Not Available",
+                "5": "Virtual 382",
+                "6": "Available"
+            },
+            "10": {
+                "1": "971",
+                "2": "742",
+                "3": "Available",
+                "4": "971",
+                "5": "Not Available",
+                "6": "Available"
+            },
+            "11": {
+                "1": "952",
+                "2": "742",
+                "3": "Available",
+                "4": "971",
+                "5": "Not Available",
+                "6": "Available"
+            },
+            "12": {
+                "1": "952",
+                "2": "952",
+                "3": "Available",
+                "4": "Available",
+                "5": "Not Available",
+                "6": "Available"
+            },
+            "13": {
+                "1": "Not Available",
+                "2": "Not Available",
+                "3": "Not Available",
+                "4": "Not Available",
+                "5": "Not Available",
+                "6": "Available"
+            },
+            "14": {
+                "1": "Not Available",
+                "2": "Not Available",
+                "3": "Not Available",
+                "4": "Not Available",
+                "5": "Not Available",
+                "6": "Virtual 382"
+            },
+            "15": {
+                "1": "Not Available",
+                "2": "Not Available",
+                "3": "Not Available",
+                "4": "Not Available",
+                "5": "Not Available",
+                "6": "Virtual 382"
+            }
+        }
+    }
+}
