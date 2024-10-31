@@ -66,7 +66,8 @@ todos_datos = []
 Datos = []
 
 """ 
-Iterar sobre cada hoja de trabajo, comenzando desde la segunda hoja"""
+Iterar sobre cada hoja de trabajo, comenzando desde la hoja donde inician los datos en el ejemplo inicia desde la hoja
+ 1 que es la 0, si se necesita ignorar algunas indicar desde que hoja se quiere empezar """
 for nombre_hoja in excel_dataframe.sheetnames[0:]:
     """
     Usar el nombre de la hoja como id_empleado."""
@@ -75,6 +76,22 @@ for nombre_hoja in excel_dataframe.sheetnames[0:]:
     """
     Seleccionar la hoja actual."""
     hoja = excel_dataframe[nombre_hoja]
+
+    """
+    Estraer el periodo corrspondiente"""
+    periodos = []
+    """
+    Periodo con hora comentado"""
+    #periodo = hoja.cell(row=7, column= 3).value
+
+    periodo = "2025101" #El periodo seria el mismo 2025/01/01
+    periodos.append(periodo)
+
+    """
+    Usuario predeterminado"""
+    usuarios = []
+    usuario = "1"  # El usuario que use es el 1
+    usuarios.append(usuario)
 
     """
     Extraigo los horarios y almacenano en una lista "horarios" recorriendo desde "fila_inicio_datos" hasta 
@@ -106,16 +123,17 @@ for nombre_hoja in excel_dataframe.sheetnames[0:]:
             celda = hoja.cell(row=row, column=col)
 
             """
-            Verificar el color de la celda. Si tiene relleno y un color específico, asignar """
-
-             # Verificar si el texto está en color rojo (#FF0000)
-            if celda.font and celda.font.color and celda.font.color.rgb == "FFFF0000":
-                disponibilidad = "sin disponibilidad"
+            Verificar el color de la celda. Si tiene relleno y un color específico, asignar 
+            disponibilidad según el color."""
+            
             if celda.fill and celda.fill.start_color:
                 color_celda = celda.fill.start_color.rgb
                 disponibilidad = colores_disponibilidad.get(color_celda, "sin disponibilidad")
             else:
                 disponibilidad = "sin disponibilidad"  # Sin color
+            # Verificar si el texto está en color rojo (#FF0000)
+            if celda.font and celda.font.color and celda.font.color.rgb == "FFFF0000":
+                disponibilidad = "sin disponibilidad"
 
             """
             Agregar solo los registros con disponibilidad "disponible" o "poca disponibilidad".
@@ -125,13 +143,13 @@ for nombre_hoja in excel_dataframe.sheetnames[0:]:
                     id_disponibilidad = 1
                 elif disponibilidad == "poca disponibilidad":
                     id_disponibilidad = 2
-                todos_datos.append([id_empleado, id_dias, id_horario, id_disponibilidad])
-                Datos.append([id_empleado, dia, horario, disponibilidad])
-
+                todos_datos.append([periodo, id_empleado, id_dias, id_horario, id_disponibilidad, usuario])
+                Datos.append([periodo, id_empleado, dia, horario, disponibilidad, usuario])
 """
 Crear un DataFrame 'df' con todos los datos de ID y guardarlo como CSV."""
-df = pd.DataFrame(todos_datos, columns=["ID_Empleado", "ID_Dias", "ID_Horario", "ID_Disponibilidad"])
+df = pd.DataFrame(todos_datos, columns=["periodo", "id", "dia", "hora", "status", "users_id"])
 df.to_csv("disponibilidades_ids.csv", index=False, encoding="utf-8")
+
 
 # Visualizar datos en una tabla
 print(tabulate(df, headers="keys", tablefmt="fancy_grid"))
@@ -139,7 +157,69 @@ print("Todos los datos con ids han sido guardados en 'disponibilidades_ids.csv'.
 
 """
 Descomentar estas líneas para guardar y visualizar los datos completos en un segundo CSV."""
-# df2 = pd.DataFrame(Datos, columns=["ID_Empleado", "Dia", "Horario", "Disponibilidad"])
-# df2.to_csv("disponibilidades.csv", index=False, encoding="utf-8")
-# print(tabulate(df2, headers="keys", tablefmt="fancy_grid"))
-# print("Todos los datos completos han sido guardados en 'disponibilidades.csv'.")
+df2 = pd.DataFrame(Datos, columns=["Periodo","ID_Empleado", "Dia", "Horario", "Disponibilidad","Usuario"])
+df2.to_csv("disponibilidades.csv", index=False, encoding="utf-8")
+print(tabulate(df2, headers="keys", tablefmt="fancy_grid"))
+print("Todos los datos completos han sido guardados en 'disponibilidades.csv'.")
+
+# Cargar el archivo de Excel
+excel_dataframe = openpyxl.load_workbook("Ejemplo Disponibilidad.xlsx", data_only=True)  # 'data_only=True' permite obtener el resultado de la fórmula
+
+# Seleccionar la primera hoja (índice 0)
+hoja = excel_dataframe[excel_dataframe.sheetnames[0]]
+
+"""
+Definir los rangos para filas y columnas
+"""
+fila_inicio_datos = 5
+fila_fin_datos = 1188
+columna_id_profesor = 2
+columna_clave_materia = 5
+columna_nombre_materia = 6
+columna_nombre_profesor = 3
+
+# Listas para almacenar datos
+profesores_ids = []
+profesores_name = []
+materias = []
+claves_materias = []
+datos_materias = []
+
+"""
+Estraer el periodo corrspondiente"""
+periodos = []
+periodo = "20250101" #El periodo seria el mismo 2025/01/01
+periodos.append(periodo)
+"""
+Append Usuario"""
+usuarios = []
+usuario = "1" #El usuario predeterminado
+usuarios.append(usuario)
+
+# Recorrer las filas dentro del rango especificado
+for row in range(fila_inicio_datos, fila_fin_datos + 1):
+    # Extraer datos de cada columna específica y añadirlos a las listas
+    profesor_id = hoja.cell(row=row, column=columna_id_profesor).value
+    profesores_ids.append(profesor_id)
+
+    profesor_name = hoja.cell(row=row, column=columna_nombre_profesor).value
+    profesores_name.append(profesor_name)
+
+    materia_nombre = hoja.cell(row=row, column=columna_nombre_materia).value
+    materias.append(materia_nombre)
+
+    clave_materia = hoja.cell(row=row, column=columna_clave_materia).value
+    claves_materias.append(clave_materia)
+
+    # Agregar los datos en una lista de registros
+    datos_materias.append([periodo, profesor_id, profesor_name, clave_materia, materia_nombre, usuario])
+
+"""
+Crear un DataFrame 'df' con todos los datos de ID y guardarlo como CSV.
+"""
+df = pd.DataFrame(datos_materias, columns=["periodo", "id","Nombre_profesor", "uaprendizaje","Nombre_materia","users_id"])
+df.to_csv("materias.csv", index=False, encoding="utf-8")
+
+# Visualizar datos en una tabla
+print(tabulate(df, headers="keys", tablefmt="fancy_grid"))
+print("Todas las materias han sido guardadas en 'materias.csv'.")
